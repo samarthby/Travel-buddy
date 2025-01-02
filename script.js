@@ -1,4 +1,4 @@
-const apiKey = "8652002816c1d2886e56e108754b1815";
+const apiKey = process.env.API_KEY;
 const chatMessages = document.getElementById("chatMessages");
 const userInput = document.getElementById("userInput");
 const sendButton = document.getElementById("sendButton");
